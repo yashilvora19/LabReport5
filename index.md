@@ -21,7 +21,7 @@ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 
 # Editting the text file using sed
-sed -i '43s/index2/index1/g' ListExamples.java
+sed -i '43s/index1/index2/g' ListExamples.java
 
 # Compiling and running the tester (all tests pass)
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
@@ -43,3 +43,8 @@ Here is what this bash script does step-by-step.
 6. Using `git add`, `git commit`, and `git push` to save the changes to GitHub.
 
 All of these commmands worked successfully and the output could be seen in the terminal. Creating a bashscript made the entire process much more faster and made me realize the power of how useful these scripts can be in carrying out complicated tasks such as these.
+
+Here is what the output looked like on my terminal.
+
+
+
