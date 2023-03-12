@@ -60,7 +60,7 @@ Here is what this bash script does step-by-step.
 
 All of these commmands worked successfully and the output could be seen in the terminal. Creating a bashscript made the entire process much more faster and made me realize the power of how useful these scripts can be in carrying out complicated tasks such as these.
 
-### Explanation of certain steps
+### Explaining output of bashscript
 
 I ran the bash script by running `bash tasks.sh` in my ieng6 terminal. Here is what the output looked like:
 
